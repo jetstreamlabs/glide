@@ -1,0 +1,32 @@
+php:
+  preset: laravel
+  version: 8.1
+  tab-width: 2
+  use-tabs: false
+  finder:
+    exclude:
+      - 'public'
+      - 'storage'
+      - 'vendor'
+    name: '*.php'
+    not-name:
+      - 'index.php'
+      - 'server.php'
+js:
+  tab-width: 2
+  use-tabs: false
+  semicolons: false
+  bracket-same-line: true
+  finder:
+    exclude:
+      - 'public'
+      - 'node_modules'
+css:
+  tab-width: 2
+  use-tabs: false
+
+vue:
+  tab-width: 2
+  use-tabs: false
+  semicolons: false
+  bracket-same-line: true
